@@ -48,9 +48,10 @@ function PhoneBookForm() {
         }
 
     const handleInputChange = (e) => {
-        const { name, value} = e.target;
-       // console.log(e.target) // <input....name="..." type="text" value="..." onChange={handleInputChange}/>
-       setUserData({ ...userData, [name] : value })
+        const { name, value} = e.target; //  <input....name="..." type="text" value="..." onChange={handleInputChange}/>
+        
+       /*. In functional components you need to spread the oldData and then change what you like. */
+       setUserData({ ...userData, [name] : value }) // Ex: same as setUserFirstName(e.target.firstname) in the firstname input
     }
 
 
@@ -65,7 +66,7 @@ function PhoneBookForm() {
             name="firstname"
             type="text"
             value={userData.firstname}
-            onChange={handleInputChange}
+            onChange={handleInputChange} // Ex:  onChange={ () => setUserFirstName(e.target.firstname)} 
         />
         <input 
         style={style.form.inputs}
