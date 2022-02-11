@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/PhoneBookForm-redux/static/css/main.c6bebc4e.css",
+    "main.js": "/PhoneBookForm-redux/static/js/main.c6106020.js",
+    "index.html": "/PhoneBookForm-redux/index.html",
+    "main.c6bebc4e.css.map": "/PhoneBookForm-redux/static/css/main.c6bebc4e.css.map",
+    "main.c6106020.js.map": "/PhoneBookForm-redux/static/js/main.c6106020.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6bebc4e.css",
+    "static/js/main.c6106020.js"
+  ]
+}
